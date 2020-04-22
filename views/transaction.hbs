@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Transactions - PocketBudget</title>
+        {{>global_links}}
+        <!-- Stepper -->
+        <link rel="stylesheet" href="https://unpkg.com/bs-stepper/dist/css/bs-stepper.min.css">
+        <script src="https://unpkg.com/bs-stepper/dist/js/bs-stepper.min.js"></script>
+    </head>
+
+    <body>
+        <!-- HEADER calls navbar.hbs-->
+        {{>navbar2}}
+        <!-- END HEADER -->
+
+  <!-- Start Transaction -->
+    <section id="transaction" class="bg-white">
+          <center>
+              <div class="container">
+                  <h1>Transactions</h1>
+
+              </div>
+          </center>
+    </section>
+  <!-- End Transaction -->
+
+        <!-- FOOTER calls footer.hbs-->
+        {{>footer}}
+        <!-- END FOOTER -->
+
+        <script type="text/javascript">
+            jarallax(document.querySelectorAll('.jarallax'));
+        </script>
+    </body>
+</html>
