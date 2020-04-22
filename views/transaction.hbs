@@ -13,16 +13,37 @@
         {{>navbar2}}
         <!-- END HEADER -->
 
-  <!-- Start Transaction -->
-    <section id="transaction" class="bg-white">
-          <center>
-              <div class="container">
-                  <h1>Transactions</h1>
+      <!-- HERO -->
+        <section id="hero" class="mt-5 pt-2">
+            <center>
+                <div class="jumbotron jumbotron-fluid h-100 jarallax hero-overlay hero-text">
+                    <div class="container">
+                        <div class="row h-100">
+                            <div class="col-sm-12 my-auto">
+                                <h1 class="display-2">PocketBudget</h1>
+                                <p class="lead">Transactions</p>
+                                <hr class="solid big_margin">
+                                <button class="btn btn-success btn-lg mx-5" type="button" data-toggle="modal" data-target="#loginModal">Log In</button><br />
+                                <button class="btn btn-success btn-lg mx-5" type="button" data-toggle="modal" data-target="#signupModal">Create an Account</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="jarallax-img opacity-75" src="https://images.unsplash.com/photo-1504983376254-592a0ea9b0cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3291&q=80">
+                </div>
+            </center>
+        </section>
+      <!-- END HERO -->
 
-              </div>
-          </center>
-    </section>
-  <!-- End Transaction -->
+      <!-- Start Transaction -->
+        <section id="transaction" class="bg-white">
+              <center>
+                  <div class="container">
+                      <h1>Transactions</h1>
+
+                  </div>
+              </center>
+        </section>
+      <!-- End Transaction -->
 
         <!-- FOOTER calls footer.hbs-->
         {{>footer}}
